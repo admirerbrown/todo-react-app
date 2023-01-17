@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/state-in-constructor */
-
-/* eslint-disable react/button-has-type */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 
@@ -36,7 +34,7 @@ class InputTodo extends React.Component {
           onChange={this.onChange}
           className="input-text"
         />
-        <button className="input-submit">Submit</button>
+        <button type="button" className="input-submit">Submit</button>
       </form>
     );
   }
